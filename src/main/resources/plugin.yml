@@ -1,0 +1,7 @@
+name: FirstPlugin
+version: 0.1.0
+main: io.github.luttje.firstplugin.FirstPlugin
+description: An example plugin
+author: Luttje
+website: https://github.com/luttje
+api-version: '1.20'
