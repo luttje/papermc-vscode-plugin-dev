@@ -170,6 +170,8 @@ For the following steps we assume you've installed [VSCode](https://code.visuals
     - Make sure the `main` field matches the package and class name of your plugin entry point.
     - See [the PaperMC documentation for more information on the `plugin.yml` file](https://docs.papermc.io/paper/dev/plugin-yml).
 
+12. Run `./gradlew` in your terminal to build the project. This will also trigger the 'Gradle for Java' extension in VSCode.
+
 **Your project should now be set up and ready to build!**
 
 ## 🔨 Build the plugin
