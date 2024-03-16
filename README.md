@@ -123,9 +123,10 @@ For the following steps we assume you've installed [VSCode](https://code.visuals
 
 9. Setup the `src` directory structure:
 
-    - Create a new folder called `src/main/` in your project folder
-    - Choose a unique name for your plugin (e.g: `io.github.myusername.firstplugin`) and create that folder structure inside `src/main/`
-    - Inside the `io.github.myusername.firstplugin` folder, create the entry point for your plugin, e.g. `FirstPlugin.java`:
+    1. Create a new folder called `src/main` in your project folder
+    2. Create a `java` folder inside `src/main`
+    3. Choose a unique name for your plugin (e.g: `io.github.myusername.firstplugin`) and create that folder structure inside `src/main/` (e.g. `src/main/java/io/github/myusername/firstplugin`)
+    4. Inside the `io/github/myusername/firstplugin` folder, create the entry point for your plugin, e.g. `FirstPlugin.java`:
 
       ```java
       package io.github.myusername.firstplugin;
